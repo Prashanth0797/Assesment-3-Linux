@@ -9,7 +9,8 @@ ls *.txt
 
 Q3
 
-pwd aws*
+for d in ./aws*/ ;do (cd "$d" && ls); done
+
 
 Q4
 
