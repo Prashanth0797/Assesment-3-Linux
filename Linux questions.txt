@@ -1,0 +1,20 @@
+Q1
+
+egrep "abc" myfile.txt
+egrep -c "abc" myfile.txt
+
+Q2
+
+ls *.txt
+
+Q3
+
+pwd aws*
+
+Q4
+
+sed 's/word_to_be_replaced/word_with_which_to_be_replaced_with/g' myfile.txt
+
+Q5
+
+cat myjsonfile.json | jq '.Records[0].s3.bucket.arn'
