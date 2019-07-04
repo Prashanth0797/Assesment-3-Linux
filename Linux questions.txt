@@ -13,7 +13,7 @@ pwd aws*
 
 Q4
 
-sed 's/word_to_be_replaced/word_with_which_to_be_replaced_with/g' myfile.txt
+sed -i 's/word_to_be_replaced/word_with_which_to_be_replaced_with/g' myfile.txt
 
 Q5
 
